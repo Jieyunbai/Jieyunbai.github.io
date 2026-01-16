@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Jieyun Bai  @ GDPH ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="http://www.gdghospital.org.cn/ziwang/index.php/"><img border="0" width="40" src="images/mdtl.png"/></a></span>
+                    <!-- <span><a href="http://www.gdghospital.org.cn/ziwang/index.php/"><img border="0" width="200" src="images/gdsxxgbyjs_xxw.png"/></a></span> -->
+                    <!-- <span><a href="http://english.hust.edu.cn/"><img border="0" width="40" src="images/Hustseals.png"/></a></span>
+                    <span><a href="https://www.ualberta.ca/index.html"><img border="0" width="40" src="images/ua.png"/></a></span>
+                    <span><a href="http://www.buffalo.edu/"><img border="0" width="40" src="images/SUNY-Buffalo.png"/></a></span>
+                    <span><a href="https://www.zju.edu.cn/english/"><img border="0" width="40" src="images/zju.png"/></a></span>
+                    <span><a href="https://www.nd.edu/"><img border="0" width="40" src="images/nd3.png"/></a></span> -->
+
+                    <!-- <a class="navbar-brand" href="http://english.hust.edu.cn/">
+                        <img src="img/Hustseals.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="https://www.ualberta.ca/index.html">
+                        <img src="img/ua.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="http://www.buffalo.edu/">
+                        <img src="img/SUNY-Buffalo.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="">
+                        <img src="img/zju.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="">
+                        <img src="img/nd3.png" width="40" height="30" alt="GAC">
+                    </a> -->
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            </li>
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#intro">Home</a>
+                            </li>
+                            <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#intro"> -->
+                                <!-- Home<span class="caret"></span></a> -->
+                            <!-- <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                 <li><a href="bio.html">Biography</a></li> 
+                                <li><a href="cv.html">CV (Web)</a></li>
+                                <li><a target="_blank" href="cv_baijieyun.pdf">CV (PDF)</a></li>
+                            </ul> -->
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications/">All</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="talks/">Talks</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
+                        </li> -->
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-resources-content').show();" href="#resources">Resources</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="cv_baijieyun.pdf">CV</a>
+                        </li>                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+
+
+            <!-- Home Section -->
+            <section id="home">
+                <div class="container lead">
+
+                    <h3> Updates and News </h3>
+
+                    <ul>
+                        <li><span class="label label-info"><font color="white">Editor'26</font></span> Jan, 2026: Invited to be a guest accosiate editor in IEEE TBME</li>
+                        <li><span class="label label-info"><font color="white">Book'26</font></span> Jan, 2026: one book is published by Springer Nature</li>
+                        <li><span class="label label-info"><font color="white">J Physiol'25</font></span> Dec, 2025: one paper is accepted by J Physiol</li>
+                        <li><span class="label label-success"><font color="white">Guangzhou'25</font></span> Dec, 2025: one proposal (Guangzhou Science and Technology Project, No. 2025B03J0127) is approved</li>
+                        <li><span class="label label-info"><font color="white">IEEE-TMI'25</font></span> Nov, 2025: one paper is accepted by IEEE-TMI</li>
+                        <li><span class="label label-info"><font color="white">ESWA'25</font></span> Oct, 2025: one paper is accepted by ESWA</li>
+                        <li><span class="label label-warning"><font color="white">New Journey</font></span> Oct, 2025: joined the First Affiliated Hospital of Jinan University</li>
+                        <li><span class="label label-info"><font color="white">PLOS Comput Biol'25</font></span> Aug, 2025: one paper is accepted by PLOS Computational Biology (Front Cover)</li>
+                        <li><span class="label label-success"><font color="white">MOST'25</font></span> Jul, 2025: one proposal (No. H20240205) is approved by MOST</li>
+                        <li><span class="label label-info"><font color="white">Editor'25</font></span> May, 2025: Invited to be a guest accosiate editor in IEEE JBHI</li>
+                        <li><span class="label label-info"><font color="white">ISBI'25</font></span> Apr, 2025: one paper is accepted by ISBI</li>
+                        <li><span class="label label-info"><font color="white">IEEE-JBHI'25</font></span> Feb, 2025: one paper is accepted by IEEE-JBHI</li>
+                        <li><span class="label label-info"><font color="white">MIA'25</font></span> Jan, 2025: one paper is accepted by MIA</li>
+                        <li><span class="label label-success"><font color="white">Guangzhou'24</font></span> Dec, 2024: one proposal (Guangzhou Science and Technology Project, No. 2024B03J1283) is approved</li>
+                        <li><span class="label label-info"><font color="white">BIBM'24</font></span> Dec, 2024: one paper is accepted by BIBM</li>
+                        <li><span class="label label-info"><font color="white">ESWA'24</font></span> Dec, 2024: one paper is accepted by ESWA</li>
+                        <li><span class="label label-success"><font color="white">NSF of Guangdong'24</font></span> Dec, 2024: one proposal (No. 2024A1515011886) is approved by NSF of Guangdong</li>
+                        <li><span class="label label-info"><font color="white">BSPC'24</font></span> Oct, 2024: one paper is accepted by BSPC</li>
+                        <li><span class="label label-info"><font color="white">EAAI'24</font></span> Oct, 2024: one paper is accepted by EAAI</li>
+                        <li><span class="label label-info"><font color="white">Book'24</font></span> Sep, 2024: one book is published by Springer Nature</li>
+                        <li><span class="label label-info"><font color="white">HRS'24</font></span> Sep, 2024: one paper is accepted by HRS</li>
+                        <li><span class="label label-info"><font color="white">MICCAI'24</font></span> Sep, 2024: one paper is accepted by MICCAI</li>
+                        <li><span class="label label-info"><font color="white">Sci Data'24</font></span> May, 2024: two papers are accepted by Scientific Data</li>
+                        <li><span class="label label-info"><font color="white">MBEC'24</font></span> Mar, 2024: one paper is accepted by MBEC</li>
+                        <li><span class="label label-info"><font color="white">IEEE-JBHI'24</font></span> Feb, 2024: one paper is accepted by IEEE-JBHI</li>
+                        <li><span class="label label-info"><font color="white">Book'24</font></span> Dec, 2023: one book is published by Frontier SA</li>
+                        <li><span class="label label-success"><font color="white">NSF of Guangdong'23</font></span> Dec, 2023: one proposal (No. 2023A1515012833) is approved by NSF of Guangdong</li>
+                        <li><span class="label label-info"><font color="white">IJCARS'23</font></span> Nov, 2023: one paper is accepted by IJCARS</li>
+                        <li><span class="label label-info"><font color="white">CVIA'23</font></span> Oct, 2023: one paper is accepted by CVIA</li>
+                        <li><span class="label label-info"><font color="white">ESWA'23</font></span> Oct, 2023: one paper is accepted by ESWA</li>
+                        <li><span class="label label-info"><font color="white">PLOS Comput Biol'23</font></span> Sep, 2023: one paper is accepted by PLOS Computational Biology</li>
+                        <li><span class="label label-info"><font color="white">HRS'23</font></span> Sep, 2023: two papers are accepted by HRS</li>
+                        <li><span class="label label-warning"><font color="white">Visiting Journey</font></span> Jul, 2023: started visiting the Auckland Bioengineering Institute as a Visiting Fellow</li>
+                        <li><span class="label label-info"><font color="white">Interface Focus'23</font></span> Jun, 2023: two papers are accepted by Interface Focus</li>
+                        <li><span class="label label-info"><font color="white">MBEC'23</font></span> Mar, 2023: one paper is accepted by MBEC</li>
+                        <li><span class="label label-success"><font color="white">Guangzhou'22</font></span> Dec, 2022: one proposal (Guangzhou Science and Technology Project, No. 202201010544) is approved</li>
+                        <li><span class="label label-info"><font color="white">Arch Gynecol Obstet'22</font></span> Aug, 2022: one paper is accepted by Archives of Gynecology and Obstetrics</li>
+                        <li><span class="label label-info"><font color="white">CinC'22</font></span> Jul, 2022: one paper is accepted by CinC</li>
+                        <li><span class="label label-info"><font color="white">ESWA'21</font></span> Dec, 2021: one paper is accepted by ESWA</li>
+                        <li><span class="label label-warning"><font color="white">New Journey</font></span> Oct, 2021: joined Guangzhou Lianyin Medical Technology Co., Ltd.</li>
+                        <li><span class="label label-info"><font color="white">Comput Biol Med'21</font></span> Mar, 2021: one paper is accepted by Computers in Biology and Medicine</li>
+                        <li><span class="label label-info"><font color="white">Philos Trans R Soc A'20</font></span> Oct, 2020: one paper is accepted by Philosophical Transactions of the Royal Society A</li>
+                        <li><span class="label label-info"><font color="white">EMBC'20</font></span> Jul, 2020: one paper is accepted by EMBC</li>
+                        <li><span class="label label-info"><font color="white">Sci Rep'20</font></span> May, 2020: one paper is accepted by Scientific Reports</li>
+                        <li><span class="label label-info"><font color="white">PLOS Comput Biol'20</font></span> Feb, 2020: one paper is accepted by PLOS Computational Biology</li>
+                        <li><span class="label label-success"><font color="white">MOST'19</font></span> Dec, 2019: two proposals (No. 2019YFC0120107 and No. 2019YFC0120100) are approved by MOST</li>
+                        <li><span class="label label-info"><font color="white">Sci Rep'19</font></span> Oct, 2019: one paper is accepted by Scientific Reports</li>
+                        <li><span class="label label-success"><font color="white">NSF'19</font></span> Sep, 2019: one proposal (No. 61901192) is approved by NSFC</li>
+                        <li><span class="label label-info"><font color="white">CinC'19</font></span> Jul, 2019: four papers are accepted by CinC</li>
+                        <li><span class="label label-warning"><font color="white">New Journey</font></span> Mar, 2019: joined Jinan University</li>
+                    </ul>  
+                </div>
+                </div>
+            </section>
+
+            <hr class="star-primary">
+            <footer>
+                <small>
+                    <center>
+                        © 2016 | D. Zeinalipour. Credits: AR template
+                        <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                        <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                            <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                                https://github.com/dmsl/academic-responsive-template
+                            </a> ]
+                        </div>
+                    </center>
+                </small>
+            </footer>
+            
+        </body>
+        
+</html>

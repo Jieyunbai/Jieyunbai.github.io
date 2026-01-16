@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Jieyun Bai @ GDPH ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <span><a href="http://www.gdghospital.org.cn/ziwang/index.php/"><img border="0" width="40" src="images/mdtl.png"/></a></span>
+                    <!-- <span><a href="http://www.gdghospital.org.cn/ziwang/index.php/"><img border="0" width="200" src="images/gdsxxgbyjs_xxw.png"/></a></span> -->
+                    <!-- <span><a href="http://english.hust.edu.cn/"><img border="0" width="40" src="images/Hustseals.png"/></a></span>
+                    <span><a href="https://www.ualberta.ca/index.html"><img border="0" width="40" src="images/ua.png"/></a></span>
+                    <span><a href="http://www.buffalo.edu/"><img border="0" width="40" src="images/SUNY-Buffalo.png"/></a></span>
+                    <span><a href="https://www.zju.edu.cn/english/"><img border="0" width="40" src="images/zju.png"/></a></span>
+                    <span><a href="https://www.nd.edu/"><img border="0" width="40" src="images/nd3.png"/></a></span> -->
+
+                    <!-- <a class="navbar-brand" href="http://english.hust.edu.cn/">
+                        <img src="img/Hustseals.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="https://www.ualberta.ca/index.html">
+                        <img src="img/ua.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="http://www.buffalo.edu/">
+                        <img src="img/SUNY-Buffalo.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="">
+                        <img src="img/zju.png" width="40" height="30" alt="GAC">
+                    </a>
+                    <a class="navbar-brand" href="">
+                        <img src="img/nd3.png" width="40" height="30" alt="GAC">
+                    </a> -->
+                </div>
+                
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <!-- <li class="dropdown"> -->
+                            </li>
+                            <li class="page-scroll">
+                                <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#intro">Home</a>
+                            </li>
+                            <!-- <a class="dropdown-toggle" data-toggle="dropdown" href="#intro"> -->
+                                <!-- Home<span class="caret"></span></a> -->
+                            <!-- <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                 <li><a href="bio.html">Biography</a></li> 
+                                <li><a href="cv.html">CV (Web)</a></li>
+                                <li><a target="_blank" href="cv_baijieyun.pdf">CV (PDF)</a></li>
+                            </ul> -->
+                        <!-- </li> -->
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Publications<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Selected</a></li>
+                                <li><a href="publications.html">All</a></li>
+                            </ul>
+                        </li>
+                        <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="talks/">Talks</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
+                        </li> -->
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-resources-content').show();" href="#resources">Resources</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="cv_baijieyun.pdf">CV</a>
+                        </li> 
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#datasets">Datasets</a>
+                        </li>                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
+
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="center" class="col-md-4">
+                    <a target="_blank" href="images/baijieyun.jpg">
+                        <img id="mobile-img" src="images/baijieyun.jpg" width="250" border="0" alt=""></a>
+                        <h5><i>Try your best and keep trying.</i></h5>
+                </div>
+                <div align="left" class="col-md-8">
+                    <h2>Jieyun Bai 
+                        <h5><i>Postdoc, Auckland Bioengineering Institute, Auckland, New Zealand, 2018</i></h5>
+                        <h5><i>PhD, Harbin Institute of Technology, Harbin, China, 2017</i></h5>
+                    </h2>
+                    
+                    <h4>Associate Professor<br>
+                        <a href="https://www.jnu.edu.cn/">Medical Digital Twin Laboratory</a><br>
+                        <a href="https://www.jd120.com/">The First Affiliated Hospital of Jinan University</a><br>
+                        <!--
+                         P.O. Box 20537<br>
+                         1678 Nicosia, CYPRUS<br>-->
+                        <!-- Tel/Fax: <a href="tel:08618995521442">+86-18995521442</a>  <br> -->
+                        Email: jieyun.bai[AT]ieee.org
+                        <script language="JavaScript">
+                            // <!-- test
+                            // document.write("&nbsp;");
+                            // spiderjam('xiao.wei.xu__','foxmail.com');
+                            // -->
+                            </script><br/>
+                        <!--Lab: <a target="_blank" href="https://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
+                        Directions: <a target="_blank" href="https://goo.gl/maps/MZY9tK9bf7991tnW8">https://goo.gl/maps/MZY9tK9bf7991tnW8</a> -->
+                    </h4>
+                    <h4><i>Expertise: Medical World Model；Cardiac Digital Twin；Maternal-Fetal Digital Twin; Medical Image and Signal Processing; Biometric Recognition; Intelligent Healthcare </i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
+                    
+                </div>
+
+                <!-- <div align="left" class="col-md-4">
+                    
+                </div> -->
+                
+                <!-- <i class="twittertop" style="display:none;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @dmslucy</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i> -->
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <!--<h2>Welcome!</h2>-->
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead">
+                            I am an Associate Professor at Jinan University, a Joint Appointed Professor at the First Affiliated Hospital of Jinan University, and the Chief Scientist for Medical Artificial Intelligence at Guangzhou Lianyin Medical Technology Co., Ltd.
+                            
+                            <p>I was a postdoctoral researcher at the Auckland Bioengineering Institute, University of Auckland, working with Prof. Jichao Zhao from 2018 to 2019. I received my Ph.D. in Computer Science and Technology from Harbin Institute of Technology in 2017, under the supervision of Prof. Kuanquan Wang and Prof. Henggui Zhang, and I was also a visiting scholar at the Auckland Bioengineering Institute for one year.<br/></p>
+                    
+                            <p>My research focuses on AI-driven medical digital twins, ultrasound-based maternal–fetal monitoring, multimodal biomedical signal processing, and clinical decision support systems. I have published extensively on deep learning–based medical image and signal analysis in leading international conferences, including <b>MICCAI, ISBI, EMBC, BIBM, and CinC</b>, as well as in top-tier journals such as <b>Medical Image Analysis (MIA), IEEE Transactions on Medical Imaging (TMI), IEEE Journal of Biomedical and Health Informatics (JBHI), and PLOS Computational Biology</b>.<br/></p>
+                                
+                            <p>My team is dedicated to translational and data-driven medical AI research, leveraging large-scale clinical data collected from multi-center hospital systems. We actively develop open datasets, benchmark challenges, and open-source platforms to support reproducible and clinically relevant AI research.<br/></p>
+
+                            <p>I am a leading organizer in the international ultrasound AI community and currently serve as an Area Chair for MICCAI and ISBI Challenges. Through these initiatives, I have coordinated global collaborations among academia, hospitals, and industry, and have released large-scale, clinically curated datasets and standardized evaluation platforms to the community.<br/></p>
+
+                            <p>We are strongly committed to open science and have released more than 10 public datasets and code repositories on platforms such as Kaggle and Zenodo.<br/></p>
+
+                            <p>My group is currently recruiting postdoctoral fellows, research scientists, and graduate students in medical image analysis, medical digital twins, and AI-enabled maternal and cardiovascular healthcare.<br/></p>
+                            <p>Researchers and clinicians interested in medical AI and translational biomedical engineering are warmly welcome to contact me.</p>
+                  
+                        </p>
+                        
+                        
+                        <!-- <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
+                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a> -->
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- News Section -->
+        <section name="news" id="news">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-news-content">
+                         
+                        <hr class="star-primary">   
+                        <h2>News  <a href="news.html" class="btn btn-primary">More &raquo;</a></h2>
+                         
+                        <p>
+
+                        <ul>
+                            <li><span class="label label-info"><font color="white">Editor'26</font></span> Jan, 2026: Invited to be a guest accosiate editor in IEEE TBME</li>
+                            <li><span class="label label-info"><font color="white">Book'26</font></span> Jan, 2026: one book is published by Springer Nature</li>
+                            <li><span class="label label-info"><font color="white">J Physiol'25</font></span> Dec, 2025: one paper is accepted by J Physiol</li>
+                            <li><span class="label label-success"><font color="white">Guangzhou'25</font></span> Dec, 2025: one proposal (Guangzhou Science and Technology Project, No. 2025B03J0127) is approved</li>
+                            <li><span class="label label-info"><font color="white">IEEE-TMI'25</font></span> Nov, 2025: one paper is accepted by IEEE-TMI</li>
+                            <li><span class="label label-info"><font color="white">ESWA'25</font></span> Oct, 2025: one paper is accepted by ESWA</li>
+                            <li><span class="label label-warning"><font color="white">New Journey</font></span> Oct, 2025: joined the First Affiliated Hospital of Jinan University</li>
+                            <li><span class="label label-info"><font color="white">PLOS Comput Biol'25</font></span> Aug, 2025: one paper is accepted by PLOS Computational Biology (Front Cover)</li>
+                            <li><span class="label label-success"><font color="white">MOST'25</font></span> Jul, 2025: one proposal (No. H20240205) is approved by MOST</li>
+                            <li><span class="label label-info"><font color="white">Editor'25</font></span> May, 2025: Invited to be a guest accosiate editor in IEEE JBHI</li>
+                            <li><span class="label label-info"><font color="white">ISBI'25</font></span> Apr, 2025: one paper is accepted by ISBI</li>
+                            <li><span class="label label-info"><font color="white">IEEE-JBHI'25</font></span> Feb, 2025: one paper is accepted by IEEE-JBHI</li>
+                            <li><span class="label label-info"><font color="white">MIA'25</font></span> Jan, 2025: one paper is accepted by MIA</li>
+                            <li><span class="label label-success"><font color="white">Guangzhou'24</font></span> Dec, 2024: one proposal (Guangzhou Science and Technology Project, No. 2024B03J1283) is approved</li>
+                            <li><span class="label label-info"><font color="white">BIBM'24</font></span> Dec, 2024: one paper is accepted by BIBM</li>
+                            <li><span class="label label-info"><font color="white">ESWA'24</font></span> Dec, 2024: one paper is accepted by ESWA</li>
+                            <li><span class="label label-success"><font color="white">NSF of Guangdong'24</font></span> Dec, 2024: one proposal (No. 2024A1515011886) is approved by NSF of Guangdong</li>
+                            <li><span class="label label-info"><font color="white">BSPC'24</font></span> Oct, 2024: one paper is accepted by BSPC</li>
+                            <li><span class="label label-info"><font color="white">EAAI'24</font></span> Oct, 2024: one paper is accepted by EAAI</li>
+                            <li><span class="label label-info"><font color="white">Book'24</font></span> Sep, 2024: one book is published by Springer Nature</li>
+                            <li><span class="label label-info"><font color="white">HRS'24</font></span> Sep, 2024: one paper is accepted by HRS</li>
+                            <li><span class="label label-info"><font color="white">MICCAI'24</font></span> Sep, 2024: one paper is accepted by MICCAI</li>
+                            <li><span class="label label-info"><font color="white">Sci Data'24</font></span> May, 2024: two papers are accepted by Scientific Data</li>
+                            <li><span class="label label-info"><font color="white">MBEC'24</font></span> Mar, 2024: one paper is accepted by MBEC</li>
+                            <li><span class="label label-info"><font color="white">IEEE-JBHI'24</font></span> Feb, 2024: one paper is accepted by IEEE-JBHI</li>
+                            <li><span class="label label-info"><font color="white">Book'24</font></span> Dec, 2023: one book is published by Frontier SA</li>
+                            <li><span class="label label-success"><font color="white">NSF of Guangdong'23</font></span> Dec, 2023: one proposal (No. 2023A1515012833) is approved by NSF of Guangdong</li>
+                            <li><span class="label label-info"><font color="white">IJCARS'23</font></span> Nov, 2023: one paper is accepted by IJCARS</li>
+                            <li><span class="label label-info"><font color="white">CVIA'23</font></span> Oct, 2023: one paper is accepted by CVIA</li>
+                            <li><span class="label label-info"><font color="white">ESWA'23</font></span> Oct, 2023: one paper is accepted by ESWA</li>
+                            <li><span class="label label-info"><font color="white">PLOS Comput Biol'23</font></span> Sep, 2023: one paper is accepted by PLOS Computational Biology</li>
+                            <li><span class="label label-info"><font color="white">HRS'23</font></span> Sep, 2023: two papers are accepted by HRS</li>
+                            <li><span class="label label-warning"><font color="white">Visiting Journey</font></span> Jul, 2023: started visiting the Auckland Bioengineering Institute as a Visiting Fellow</li>
+                            <li><span class="label label-info"><font color="white">Interface Focus'23</font></span> Jun, 2023: two papers are accepted by Interface Focus</li>
+                            <li><span class="label label-info"><font color="white">MBEC'23</font></span> Mar, 2023: one paper is accepted by MBEC</li>
+                            <li><span class="label label-success"><font color="white">Guangzhou'22</font></span> Dec, 2022: one proposal (Guangzhou Science and Technology Project, No. 202201010544) is approved</li>
+                            <li><span class="label label-info"><font color="white">Arch Gynecol Obstet'22</font></span> Aug, 2022: one paper is accepted by Archives of Gynecology and Obstetrics</li>
+                            <li><span class="label label-info"><font color="white">CinC'22</font></span> Jul, 2022: one paper is accepted by CinC</li>
+                            <li><span class="label label-info"><font color="white">ESWA'21</font></span> Dec, 2021: one paper is accepted by ESWA</li>
+                            <li><span class="label label-warning"><font color="white">New Journey</font></span> Oct, 2021: joined Guangzhou Lianyin Medical Technology Co., Ltd.</li>
+                            <li><span class="label label-info"><font color="white">Comput Biol Med'21</font></span> Mar, 2021: one paper is accepted by Computers in Biology and Medicine</li>
+                            <li><span class="label label-info"><font color="white">Philos Trans R Soc A'20</font></span> Oct, 2020: one paper is accepted by Philosophical Transactions of the Royal Society A</li>
+                            <li><span class="label label-info"><font color="white">EMBC'20</font></span> Jul, 2020: one paper is accepted by EMBC</li>
+                            <li><span class="label label-info"><font color="white">Sci Rep'20</font></span> May, 2020: one paper is accepted by Scientific Reports</li>
+                            <li><span class="label label-info"><font color="white">PLOS Comput Biol'20</font></span> Feb, 2020: one paper is accepted by PLOS Computational Biology</li>
+                            <li><span class="label label-success"><font color="white">MOST'19</font></span> Dec, 2019: two proposals (No. 2019YFC0120107 and No. 2019YFC0120100) are approved by MOST</li>
+                            <li><span class="label label-info"><font color="white">Sci Rep'19</font></span> Oct, 2019: one paper is accepted by Scientific Reports</li>
+                            <li><span class="label label-success"><font color="white">NSF'19</font></span> Sep, 2019: one proposal (No. 61901192) is approved by NSFC</li>
+                            <li><span class="label label-info"><font color="white">CinC'19</font></span> Jul, 2019: four papers are accepted by CinC</li>
+                            <li><span class="label label-warning"><font color="white">New Journey</font></span> Mar, 2019: joined Jinan University</li>
+                        </ul>
+ 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="twitterlow" style="display:none;" id="t1">
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:none;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @dmslcy</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
+                    </div>
+                </div>
+            </section>
+        </div> --> 
+        
+        <!-- Research Section -->
+        <section  name="publications" id="publications">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2>Selected Publications <a href="publications.html" class="btn btn-primary">All Publications&raquo;</a></h2>
+                        <h4>
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 27
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://scholar.google.com/citations?user=1vVgUeQAAAAJ&hl=en"><font color=white>Citations</font></a>: 3000+
+                            </span>&nbsp;
+                            <!-- <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/Erd&ouml;s_number"><font color="white">Erd&ouml;s #</font></a>: 3
+                            </span>&nbsp; -->
+                            <span class="label label-default">
+                                <a target="_blank" href="https://orcid.org/0000-0002-1046-6379"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=55621149400"><font color="white">Scopus</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://publons.com/researcher/3075906/xiaowei-xu/"><font color="white">ResearcherID</font></a>
+                            </span>
+                            
+                            
+                        </h4>
+                        <ul>
+                            <li><span class="label label-success">MIA</span> Bai, J., Zhou, Z., Ou, Z., Koehler, G., Stock, R., Maier-Hein, K., Elbatel, M., Martí, R., Li, X., Qiu, Y., Gou, P., Chen, G., Zhao, L., Zhang, J., Dai, Y., Wang, F., Silvestre, G., Curran, K., Sun, H., Xu, J., … Lekadir, K. (2025). PSFHS challenge report: Pubic symphysis and fetal head segmentation from intrapartum ultrasound images. <b>Medical Image Analysis (MIA, IF=10.7)</b>, 99, 103353.</li>
+                            <li><span class="label label-success">TMI</span> Bai, J., Zhu, J., Chen, Z., Yang, Z., Lu, Y., Li, L., Li, Q., Wang, W., Zhang, H., Wang, K., Gan, J., Zhao, J., Lu, H., Li, S., Huang, J., Chen, X., Zhang, X., Xu, X., Li, L., Tian, Y., … Lekadir, K. (2025). A Benchmark Framework for the Right Atrium Cavity Segmentation From LGE-MRIs. <b>IEEE Transactions on Medical Imaging (TMI, IF=11)</b>, 44(12), 5290–5305.</li>
+                            <li><span class="label label-success">JBHI</span> Chen, Z., Lu, Y., Long, S., Campello, V. M., Bai, J., & Lekadir, K. (2024). Fetal Head and Pubic Symphysis Segmentation in Intrapartum Ultrasound Image Using a Dual-Path Boundary-Guided Residual Network. <b>IEEE Journal of Biomedical and Health Informatics (JBHI, IF=7.7)</b>, 28(8), 4648–4659.</li>
+                            <li><span class="label label-success">JBHI</span> Lu, Y., Liu, J., Bai, J., Rong, J., Qi, J., & Yang, Z. (2025). Multi-Scale, Multi-Basis Wavelet Voting Network for Automatic Analysis of Fetal Heart Rate Signals. <b>IEEE Journal of Biomedical and Health Informatics (JBHI, IF=7.7)</b>, <a target="_blank" href="https://doi.org/10.1109/JBHI.2025.3647057">https://doi.org/10.1109/JBHI.2025.3647057</a></li>
+                            <li><span class="label label-success">PCB</span> Bai, J., Lo, A., Gladding, P. A., Stiles, M. K., Fedorov, V. V., & Zhao, J. (2020). In silico investigation of the mechanisms underlying atrial fibrillation due to impaired Pitx2. <b>PLOS Computational Biology (PCB, IF=4.3)</b>, 16(2), e1007678.</li>
+                            <li><span class="label label-success">PCB</span> Bai, J., Wang, W., Zhang, X., Lu, H., Zhang, H., Panfilov, A. V., & Zhao, J. (2025). Digital twin for sex-specific identification of class III antiarrhythmic drugs based on in vitro measurements, computer models, and machine learning tools. <b>PLOS Computational Biology (PCB, IF=4.3)</b>, 21(7), e1013154. <font color="red">(Front Cover)</font></li>
+                            <li><span class="label label-success">PCB</span> Zhao, J., Sharma, R., Kalyanasundaram, A., Kennelly, J., Bai, J., Li, N., Panfilov, A., & Fedorov, V. V. (2023). Mechanistic insight into the functional role of human sinoatrial node conduction pathways and pacemaker compartments heterogeneity: A computer model analysis. <b>PLOS Computational Biology (PCB, IF=4.3)</b>, 19(12), e1011708.</li>
+                            <li><span class="label label-success">JP</span> Kulathilaka, A., Sharma, R., Kennelly, J., Li, N., Bai, J., Smaill, B. H., Trew, M. L., Fedorov, V. V., & Zhao, J. (2025). Structural determinants of re-entrant drivers in atrial fibrillation: insights from digital twins derived from 3D micrometre-resolution imaging of human heart. <b>The Journal of Physiology (JP, IF=4.7)</b>, <a target="_blank" href="https://doi.org/10.1113/JP288625">10.1113/JP288625</a>.</li>
+                            <li><span class="label label-success">MICCAI'24</span> Jiang, J., Wang, H., Bai, J., Long, S., Chen, S., Campello, V. M., & Lekadir, K. (2024, October). Intrapartum ultrasound image segmentation of pubic symphysis and fetal head using dual student-teacher framework with cnn-vit collaborative learning. In <b>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI'24, Top conference in medical imaging)</b>, 2024. <font color="red">early accept, acceptance rate 13%</font></li>
+                            <li><span class="label label-success">BIBM'25</span> Wang, W., & Bai, J. (2024, December). Assessment of Proarrhythmic Risk for Class III Antiarrhythmic Drug in Atrium. In <b>2024 IEEE International Conference on Bioinformatics and Biomedicine (BIBM, CCF B)</b> (pp. 5561-5568). IEEE.</li>
+                            <li><span class="label label-success">ISBI'25</span> Chen, Y., Deng, B., Peng, Z., Zhou, Y., Sun, P., Wan, J., & Bai, J. (2025, April). COMT: Co-Training Mean Teachers Semi-Supervised Training Framework for Cervical Segmentation. In <b>2025 IEEE 22nd International Symposium on Biomedical Imaging (ISBI, Top conference in medical imaging)</b> (pp. 1-5). IEEE.</li>
+                        </ul>
+                        <p><a href="publications/" class="btn btn-primary">All Publications &raquo;</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    
+ 
+         <!-- Courses Section -->
+         <!-- <section  name="awards" id="awards">
+             <div class="container lead">
+                 <div style="text-align: left; margin-top:10px" class="col-md-12">
+                     
+                     <b class="noshow" style="display:none;" id="tab-6">
+                         <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-awards-content').toggle();">Awards  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                     </b>
+                     <div class="allshow" style="display:none;" id="tab-awards-content">
+                         
+                         <hr class="star-primary">
+                         <h2>Awards and Honors <a href="cv.html#SECTION00040000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                         <ul>
+                             <li>
+                                 <span class="label label-success">IEEE MDM'18</span> <a target="_blank" href="https://mdmconferences.org/mdm2018/">Best of MDM 2018</a>,  ``Decaying Telco Big Data with Data Postdiction'', 19th IEEE International Conference on Mobile Data Management (MDM'18), Aalborg, Denmark, June 26 - June 28, 2018 (Geinformatica - Springer - journal invitation).</span>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </section> -->
+
+
+        <!-- Courses Section -->
+        <!-- <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li><span class="label label-success">EPL646</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl646/">Advanced Topics in Databases</a> (Winter)</li>
+                            <li><span class="label label-default">EPL446</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl446/">Advanced Database Systems</a></li>
+                            <li><span class="label label-success">EPL371</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl371">Systems Programming</a> (Spring) </li>
+                            <li><span class="label label-default">EPL342</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl342/">Databases</a></li>
+                            <li><span class="label label-success">EPL232</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl232">Programming Techniques and Tools</a> (Winter) [formely EPL132]</li>
+                            <li><span class="label label-default">EPL111</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl111">Discrete Structures in Computer Science and Computation</a></li>
+                            <li><span class="label label-default">EPL035</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl035">Data Structures and Algorithms for ECE</a></li>
+                            <li><span class="label label-default">EPL032</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl032">Introduction to Programming and Problem Solving</a></li>
+                            <li><span class="label label-default">EPL003</span> Computer Science and Information Systems</li>
+                            <li><span class="label label-default">EPL001</span> Introduction to Computer Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        
+        <!-- Service Section -->
+        <section name="service" id="service">
+            
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-7">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-service-content').toggle();">Service  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-service-content">
+                        
+                        <hr class="star-primary">
+                        <!-- <h2>Professional Service <a href="cv.html#SECTION00070000000000000000" class="btn btn-primary">More &raquo;</a></h2> -->
+                        <h2>Professional Service</h2>
+                        <!-- <p>
+                        <span class="label label-success">Editorial Boards</span>
+                        
+                        <ul>
+                            <li><b>Associate Editor</b>, <a target="_blank" href="https://link.springer.com/journal/10619"><b> Distributed and Parallel Databases</b></a> journal, Editors-in-Chief: <a target="_blank" href="http://www-users.cs.umn.edu/~mokbel/">Mohamed Mokbel</a> and <a target="_blank" href="hhttps://www.cs.ucsb.edu/~agrawal/">Divyakant Agrawal</a>, <b>Springer US Press</b>, NY, USA. (05/2017 - 04/2023)
+                                <br><img width="200" src="images/springer.png"/>
+                            </li>
+                            <li><b>Associate Editor</b>, <a target="_blank" href="http://www.journals.elsevier.com/big-data-research"><b>Big Data Research</b></a> journal, Editors-in-Chief: Z. Wu, <a target="_blank" href="http://www.mi.parisdescartes.fr/~themisp/">Themis Palpanas</a>, <b>Elsevier Press</b>, Amsterdam, Netherlands. (04/2016 - current)
+                                <br><img width="100" src="images/elsevier.png"/>
+                            </li>
+                        </ul>
+                        </span>
+                        </p> -->
+                        
+                        <p>
+
+                        <span class="label label-success">Journal editors</span>
+                        <ul>
+                            <li> <b>IEEE TBME</b> (Guest Editor, IF=4.5, 中科院二区)</li>
+                            <li> <b>IEEE JBHI</b> (Guest Editor, IF=6.8, 中科院二区)</li>
+                            <li> <b>Scientific Data</b> (IF=6.9, 中科院二区)</li>
+                            <li> <b>Plos Digital Health</b> (IF=7.7)</li>
+                        </ul>
+                        <span class="label label-success">Conference Program Committee</span>
+                        <ul>
+                            <li> <b>MICCAI 2026</b></li>
+                            <li> <b>ISBI 2025-2026</b></li>
+                        </ul>
+
+                        <span class="label label-success">Journal Reviewer</span>
+                        <ul>
+                            <li> <b>IEEE JBHI</b></li>
+                            <li> <b>IEEE TIM</b></li>
+                            <li> <b>IEEE TAI</b></li>
+                            <li> <b>Npj Digital Medicine</b></li>
+                            <li> <b>Scientific Data</b></li>
+                            <li> <b>Plos Digital Health</b></li>
+                            <li> <b>PLoS Computational Biology</b></li>
+                            <li> <b>Biomedical Signal Processing and Control</b></li>
+                            <li> <b>Computer Methods in Biomechanics and Biomedical Engineering</b></li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Courses Section -->
+        <!-- <section name="advising" id="advising">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-8">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Advising <a href="cv.html#SECTION000120000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li>
+                                <span class="label label-success">Postdoc</span> <a target="_blank" href="https://www.cs.ucy.ac.cy/~gchatzim/">George Chatzimilioudis</a>, Researcher at MTN, Cyprus.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!-- Home Section -->
+        <section name="resources" id="resources">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Resources</h2>
+                        <ul>
+                            <li><span class="label label-success"><a target="_blank" href="https://www.lifehack.org/articles/technology/20-tips-use-google-search-efficiently.html"><font color="white">Google Search Skills</font></a></span> This is important in this infomation age speciall for researchers. <a href="resources/20_Google_Search_Tips_to_Use_Google_More_Efficiently.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-default"><a target="_blank" href="https://www.wur.nl/en/article/How-to-use-Google-Scholar.htm"><font color="white">Google Scholar Skills</font></a></span> Improve your searching with Google Scholar. <a href="resources/How_to_use_Google_Scholar.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-info"><a target="_blank" href="https://smartlib.cs.ucy.ac.cy/scripts/exportBooks.php?mykey=0a05bb77edad7395da818f361f8115a2"><font color="white">Review Skill</font></a></span> Useful tips to review a scientific paper.  <a href="resources/How_to_Review_a_Scientific_Paper.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-danger"><a target="_blank" href="https://media.springernature.com/full/springer-cms/rest/v1/content/15529630/data/v1"><font color="white">Publish High-quality Papers</font></a></span> Useful tips to publish high-quality papers. <a href="resources/How_to_get_published_in_Nature_and_its_sister_journals.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/XiaoweiXu"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
+                            <li><span class="label label-warning"><a target="_blank" href="https://www.mrc-cbu.cam.ac.uk/documents/equality/HHMI_WriteReference.pdf"><font color="white">Writing Recommendation Letter</font></a></span> Useful tips to prepare recommendation letters. <a href="resources/Write_recommendationLetter_Reference.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-success"><a target="_blank" href="https://www.aje.com/en/arc/writing-cover-letter/"><font color="white">Cover Letter</font></a></span> Cover letter template which I think is a good starting point. :-) <a href="resources/Journal_Cover_Letter_TEMPLATE-EN.pdf" target="_blank"><i>Local link</i></a></li>
+                            <li><span class="label label-success"><a target="_blank" href="ReadLiteratures.html"><font color="white">Literatures every day</font></a></span> Red papers. </li>
+                            <li><span class="label label-info"><a target="_blank" href="ReadOthers.html"><font color="white">Other reading</font></a></span> Record readings. </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section name="datasets" id="datasets">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Published datasets </h2>    
+                        <ul>
+                            <li><span class="label label-success">MICCAI 2023</span> Pubic Symphysis-Fetal Head Segmentation from Transperineal Ultrasound Images</li>
+                            <li><span class="label label-success">MICCAI 2024</span> Intrapartum Ultrasound Grand Challenge</li>
+                            <li><span class="label label-success">MICCAI 2025</span> Landmark Detection Challenge for Intrapartum Ultrasound Measurement Meeting the Actual Clinical Assessment of Labor Progress</li>
+                            <li><span class="label label-info">ISBI 2025</span> Fetal Ultrasound Grand Challenge: Semi-Supervised Cervical Segmentation</li>
+                            <li><span class="label label-success">MICCAI 2026</span> Foundation Model Challenge for Ultrasound Image Analysis</li>
+                            <li><span class="label label-info">Dataset</span> PSFHS: Intrapartum ultrasound image dataset for AI-based segmentation of pubic symphysis and fetal head</li>
+                            <li><span class="label label-info">Dataset</span> RAS Dataset: A 3D Cardiac LGE-MRI Dataset for Segmentation of Right Atrial Cavity</li>
+                            <li><span class="label label-info">Dataset</span> The JNU-IFM dataset for segmenting pubic symphysis-fetal head</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- <section name="myrecording" id="myrecording">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
+                        
+                        <hr class="star-primary">
+                        <h2>My Recording</h2>
+                        <ul>
+                            
+                       </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!-- Home Section -->
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-contact-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                            <!-- <div align="left" class="col-md-5">
+                                <h4 class="myEN">
+                                    Postal address
+                                </h4>
+                                <p class="myEN">
+                                Jieyun Bai<br>
+                                Guangdong provincial People's Hospital<br>
+                                106, Zhongshan 2nd RD 
+                                Guangzhou, China<br>
+                                </p>
+                                Email:
+                                <script language="JavaScript">
+                                     
+                                    document.write("&nbsp;");
+                                    spiderjam('xiao.wei.xu','foxmail.com');
+                                 </script><br>
+                                
+                            </div> -->
+                            
+                            
+                            <div align="left" class="col-md-5">
+                                <h4>Office address</h4>
+                                <p>Medical Digital Twin Laboratory, Room 730, Nanhai Building, Jinan University,<br/>
+                                601 Huangpu Avenue West, Tianhe District, Guangzhou, China<br/>
+                                <b>Official Email</b>: baijieyun[AT]jnu.edu.cn<br/>
+                                <b>Commonly used Email</b>: jbai996[AT]aucklanduni.ac.nz<br/>
+                                <br/>
+                                </p>
+                            </div>
+                            
+                            <div align="left" class="col-md-2">
+                                <h4>Wechat account</h4>
+                                <p><a><img src="images/wechat_account.jpg" border="0"
+                                    width="160"> <br></a>
+                                </p>
+                            </div>
+
+                            <div align="right" class="col-md-4">
+                                <script type='text/javascript' id='clustrmaps' 
+                                src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=tt&d=FYfGU1SOdcZHgqUV8vqr8o3Wy0aH0GbGOHzLL5CCWEY&ct=1f0909'></script>
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+                    </div>
+                    
+                    </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2026 | D. Zeinalipour. Credits: AR template
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                            https://github.com/dmsl/academic-responsive-template
+                        </a> ]
+                    </div>
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
+</html>
