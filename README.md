@@ -67,4 +67,4 @@ Short description of the contents included in this release.
 Also check out the sister template designated for courses: https://github.com/dmsl/course-responsive-template
 
 
-# xiaoweixu.github.io
+# jieyunbaigithub.io
